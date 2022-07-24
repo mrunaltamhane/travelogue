@@ -2,12 +2,78 @@
   margin: 0;
   padding:0;
  }
+ body{
+  background-color:#ffffff
+ }
  .heading{
   text-align: center;
   padding:1.0rem ;
   background-color:#F55A5A;
   color:#ffffff;
   font-family: 'Cormorant SC', serif;
-  font-size:2.7rem;
+  font-size:2.8rem;
+ } 
+ .travelCard{
+  width:90%;
+  height:50%;
+ margin:2rem;
+  display:flex;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #F5F5F5;
   
+  padding-bottom:1.5rem
  }
+ #imagcard{
+  width:100%;
+  height:100%;
+  border-radius:1.5rem;
+  float:left;
+ } 
+ 
+ #cardimagblock{
+  width: 35%;
+ 
+
+ }
+ .cardcontent{
+   width:100%;
+   height:100%;
+   margin:  0.5rem  1.5rem;
+   
+   padding:0.5rem;
+   
+ }
+ #location_icon{
+  width:1rem;height:1rem
+ }
+ #location_name{
+  font-family: 'Inter', sans-serif;
+ }
+ #cardtop{
+  display:flex;
+ }
+ #mapview{
+  margin-left: 8rem;
+  color:#918E9B;
+  font-family: 'Inter', sans-serif;
+  text-decoration-color: #918E9B;
+ }
+ #mapview>a{
+  font-family: 'Inter', sans-serif;
+  text-decoration-color: #918E9B;
+  color : #918E9B
+
+ }
+ #cardmain {
+  font-family: 'Inter', sans-serif;
+
+ }
+  
+ #cardmain>h3{
+  color:#2B283A
+ }
+ #cardmain>p{
+  font-weight: 400;
+ }
+ 
